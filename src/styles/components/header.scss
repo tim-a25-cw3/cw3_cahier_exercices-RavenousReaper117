@@ -1,0 +1,18 @@
+.header {
+    background-color: rgba($color: #000000, $alpha: 0.5);
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+
+    .__boite-nom {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--color-white);
+        height: 80px;
+    }
+}
+
+img {
+    object-fit: cover;
+}
