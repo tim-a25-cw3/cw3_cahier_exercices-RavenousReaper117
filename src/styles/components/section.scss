@@ -1,3 +1,36 @@
 .section {
     padding: 80px 0;
+
+
+    p {
+      font-size: #{typo(24px, 32px)};
+    }
+
+    .span-gris {
+        opacity: 55%;
+        font-weight: 200;
+    }
+
+    a {
+        display: flex;
+        align-items: center;
+        padding: 8px 16px;
+        gap: 8px;
+        text-transform: uppercase;
+        font-weight: bold;
+        border-radius: 100px;
+        flex-grow: 0;
+        flex-basis: auto;
+        width: fit-content;
+    }
+
+    .icon {
+        font-size: 28px;
+    }
+
+    .tag {
+        font-weight: 200;
+        font-size: #{typo(18px)};
+    }
 }
+
