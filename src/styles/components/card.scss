@@ -9,7 +9,9 @@
     }
 
     @media (width <= $breakpoint-sm) {
-        display: block;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 100px;
     }
 }
 
@@ -51,6 +53,10 @@
         color: var(--color-black);
         background-color: var(--color-primary);
     }
+
+        @media (width <= $breakpoint-md) {
+        margin-top: 32px;
+    }
 }
 
 .card__media {
@@ -62,5 +68,10 @@
         display: block;
     }
 }
+
+
+    h2 {
+        margin-bottom: 100px;
+    }
 
 
