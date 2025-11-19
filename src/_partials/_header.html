@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Cahier exercise</title>
+        <title>{{title}}</title>
 
         <link rel="stylesheet" href="styles/main.css" />
         <script src="scripts/main.js" defer></script>
@@ -13,5 +13,9 @@
         <header class="header">
             <div class="wrapper">
                     <a href="">Marc-Olivier Lefebvre</a>
+                    <div class="liens">
+                    <a href="index.html" class="{{ active == 'accueil' ? 'active' : '' }}">Accueil</a>
+                    <a href="contact.html" class="{{ active == 'contact' ? 'active' : '' }}">Contact</a>
+                    </div>
             </div>
         </header>

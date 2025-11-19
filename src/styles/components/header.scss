@@ -5,9 +5,26 @@
     position: fixed;
     width: 100%;
     z-index: 100;
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+
+        .liens {
+            display: flex;
+            gap: 50px;
+        }
+        a:hover,
+        a.active {
+            color: var(--color-primary);
+        }
+    }
 
     a {
         color: var(--color-white);
         margin: 0;
+    }
+
+    .active {
+        color: var(--color-primary);
     }
 }
