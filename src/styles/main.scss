@@ -28,8 +28,12 @@
 // COMPONENTS
 // Composants d'interface utilisateur spécifiques.
 // C’est là que la majorité de notre travail a lieu.
+@import '../../node_modules/swiper/swiper-bundle';
 @import 'components/icons';
 @import 'components/header';
 @import 'components/hero';
 @import 'components/section.scss';
 @import 'components/card.scss';
+@import 'components/labo-react.scss';
+@import 'components/carousel.scss';
+@import 'components/footer.scss';
