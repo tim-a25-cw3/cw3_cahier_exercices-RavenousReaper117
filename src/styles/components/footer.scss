@@ -1,0 +1,25 @@
+.footer {
+    text-align: center;
+    padding: 40px 110px;
+    color: grey;
+    .icones-sociaux {
+        display: flex;
+        justify-content: center;
+        gap: 56px;
+        margin-top: 40px;
+    }
+    h2 {
+        margin: 0;
+        font-weight: 300;
+    }
+
+    .blanc {
+        color: var(--color-white);
+        font-weight: 600;
+    }
+
+    .icon {
+        height: 48px;
+        width: 48px;
+    }
+}
